@@ -14,3 +14,12 @@ header {
 .logo {
   border: 2px solid yellow;
 }
+body {
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 0.8fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "main main sidebar"
+    "footer footer footer"
+}

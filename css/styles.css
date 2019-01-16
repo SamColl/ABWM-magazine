@@ -23,3 +23,18 @@ body {
     "main main sidebar"
     "footer footer footer"
 }
+
+header {
+  grid-area: header;
+}
+
+.main-content-container {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}

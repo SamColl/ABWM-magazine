@@ -1,3 +1,16 @@
-body, div, header,  {
+header {
   border: 2px solid black;
+
+}
+.topbar {
+  border: 2px solid blue;
+}
+.maintop {
+  border: 2px solid red;
+}
+.sponsors {
+  border: 2px solid green;
+}
+.logo {
+  border: 2px solid yellow;
 }

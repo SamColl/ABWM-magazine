@@ -23,6 +23,7 @@ body {
     "main main sidebar"
     "footer footer footer"
 }
+/* header styles*/
 
 header {
   grid-area: header;
@@ -31,9 +32,24 @@ header {
 .main-content-container {
   grid-area: main;
 }
+/*featured content area styles */
+
+.featured-content-container {
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+
+  }
+
+/*sidebar styles*/
+
 .sidebar {
   grid-area: sidebar;
 }
+
+
+/*footer styles*/
 
 footer {
   grid-area: footer;

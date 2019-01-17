@@ -18,6 +18,7 @@ body {
   display: grid;
   grid-template-columns: 1.1fr 1.1fr 0.8fr;
   grid-template-rows: auto;
+  grid-gap: 20px;
   grid-template-areas:
     "header header header"
     "main main sidebar"
@@ -29,18 +30,39 @@ header {
   grid-area: header;
 }
 
-.main-content-container {
-  grid-area: main;
+.topbar {
+  background-color: blue;
+  height: 20px;
+}
+
+.maintop {
+  display: inline-flex;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+.logo {
+  width: 60%;
+  background-color: yellow;
+  height: 40px;
+}
+.sponsors {
+  width: 40%;
+  background-color: green;
+  height: 40px;
 }
 /*featured content area styles */
-
-.featured-content-container {
+main {
+  grid-area: main;
   display: grid;
-  grid-column: 1 / span 2;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
+}
 
-  }
+
+}
+
 
 /*sidebar styles*/
 

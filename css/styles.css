@@ -125,8 +125,9 @@ main {
   width: 100%;
   height: auto;
 }
-.horizonal-article-text-container {
+.horizontal-article-text-container {
   width: 60%;
+  margin: 20px 10px 20px 30px;
 }
 
 /*sidebar styles*/

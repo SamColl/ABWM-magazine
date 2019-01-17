@@ -60,9 +60,16 @@ main {
   grid-template-rows: auto;
 }
 
-
+.featured-full-article-container {
+  grid-column: 1 / 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.featured-full-article-text-container {
+  margin: 0 auto;
+}
 
 /*sidebar styles*/
 

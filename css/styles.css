@@ -126,8 +126,30 @@ main {
   height: auto;
 }
 .horizontal-article-text-container {
-  width: 60%;
+  width: 75%;
   margin: 20px 10px 20px 30px;
+}
+
+/*regular features */
+
+.regular-features-article-container-main {
+  grid-column: 2 / 13;
+  grid-row: 6 / 7;
+  display: flex;
+  justify-content: space-between;
+
+}
+.regular-features-article-container {
+  width: 30%;
+}
+
+.regular-features-img-container {
+  height: 155px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.regular-features-img-container img {
+  width: 100%;
 }
 
 /*sidebar styles*/

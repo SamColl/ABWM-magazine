@@ -14,6 +14,9 @@ header {
 .logo {
   border: 2px solid yellow;
 }
+ p {
+   font-size: 0.8em;
+ }
 body {
   display: grid;
   grid-template-columns: 1.1fr 1.1fr 0.8fr;
@@ -162,7 +165,18 @@ main {
 
 .sidebar {
   grid-area: sidebar;
-  
+  display:flex;
+  flex-direction: column;
+
+}
+
+.chair-chat {
+  display: flex;
+  background-color: lightblue;
+
+}
+.chair-img-container {
+  padding: 10px;
 }
 
 

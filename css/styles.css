@@ -25,12 +25,19 @@ header {
 
 .topbar {
   background-color: white;
-  height: 20px;
+  height: 40px;
+}
+
+i.fa.fa-facebook-square,
+i.fa.fa-twitter-square
+ {
+  color: #012169;
+  align-items: flex-end;
 }
 
 .maintop {
   display: inline-flex;
-  height: 150px;
+  height: 120px;
   background-color: white;
   width: 100%;
 }

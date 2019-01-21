@@ -1,19 +1,6 @@
-header {
-  border: 2px solid black;
 
-}
-.topbar {
-  border: 2px solid blue;
-}
-.maintop {
-  border: 2px solid red;
-}
-.sponsors {
-  border: 2px solid green;
-}
-.logo {
-  border: 2px solid yellow;
-}
+
+
  p {
    font-size: 0.8em;
  }
@@ -33,29 +20,35 @@ body {
 
 header {
   grid-area: header;
+  margin-bottom: 20px;
 }
 
 .topbar {
-  background-color: blue;
+  background-color: white;
   height: 20px;
 }
 
 .maintop {
   display: inline-flex;
-  height: 50px;
+  height: 150px;
   background-color: white;
   width: 100%;
 }
 
 .logo {
-  width: 60%;
-  background-color: yellow;
-  height: 40px;
-}
+  width: 100%;
+  height: auto;}
+
+  .logo h1 {
+    color: #012169;
+    font-size: 5em;
+    font-family: "adelle-sans","Myriad Pro","ProximaNova-Semibold",sans-serif;
+    text-align: center;
+  }
+
 .sponsors {
   width: 40%;
-  background-color: green;
-  height: 40px;
+  height: 60px;
 }
 /*featured content area styles */
 main {

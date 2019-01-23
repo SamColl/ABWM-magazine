@@ -19,6 +19,7 @@ body {
     "footer footer footer";
   max-width: 1366px;
   font-family: Helvetica ,sans-serif;
+  background-color: #f6f6f6;
 }
 /* header styles*/
 
@@ -26,6 +27,8 @@ header {
   grid-area: header;
   background-color: white;
   border-bottom: 2px solid #012169;
+
+
 }
  .top-advert {
    grid-column: 1 / 4;
@@ -101,15 +104,31 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .featured-full-article-text-container {
-  margin: 0 auto;
+
+
 
 }
 
-.featured-full-article-img-container {
 
+.featured-full-article-image-container {
+
+}
+
+.featured-full-article-image-container img {
+display:inline-block;
+position:relative;
+border:1px solid #ccc;
+padding:5px;
+background:#f2f2f2;
+margin-bottom:30px;
+margin-top: 20px;
+-webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+-moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
 }
 
 .featured-half-article-container-left
@@ -198,19 +217,46 @@ main {
   grid-area: sidebar;
   display:flex;
   flex-direction: column;
-  border-left: 2px solid #012169;
+
 
 }
 
 .chair-chat {
-  display: flex;
-  background-color: lightblue;
+  position: relative;
+  width: 220px;
+  margin: 0 auto;
 
 }
-.chair-img-container {
-  padding: 10px;
+
+.chair-chat img {
+  border: 20px solid #fff;
+  border-bottom: 100px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+  
 }
 
+.chair-chat h3
+ {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 50px;
+  font: 400 22px/1 'Kaushan Script', cursive;
+  color: #888;
+/*  <-webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg); */
+}
+.chair-chat p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  color: #888;
+
+  padding-left: 10px;
+}
 .adverts {
 
   height: 550px;
@@ -225,19 +271,18 @@ main {
 #ad1,
 #ad3 {
   width: 300px;
-  height: 250px;
+  height: 600px;
   background-color: lightpink;
-  margin: 10px 0px;
+  margin: 2px auto;
 }
+/*
 #ad2,
 #ad4 {
   width: 300px;
   height: 250px;
   background-color: lightgrey;
   margin: 10px 0px;
-}
-
-
+} */
 
 /*footer styles*/
 

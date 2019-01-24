@@ -37,9 +37,8 @@ body {
 
 header {
   grid-area: header;
-  background-color: white;
-  border-bottom: 2px solid #012169;
-  background-image: url("images/malaysia-image-one.jpg");
+
+  background-image: url("/images/malaysia-image-one.svg");
 
 
 }
@@ -68,9 +67,11 @@ i.fa.fa-twitter-square
 
 .maintop {
   display: flex;
-  background-color: white;
+
   width: 100%;
   justify-content: space-between;
+  background: url('/images/recipes.jpg');
+
 
 }
 .logo {
@@ -212,13 +213,7 @@ main {
   -moz-box-shadow: inset 0px 1px 13px -4px rgba(5,5,5,1);
   box-shadow: inset 0px 1px 13px -4px rgba(5,5,5,1);
 }
-.horizontal-article-container img {
 
-  width: 25%;
-  height: 150px;
-  flex-shrink: 0;
-
-}
 
 #first {
   grid-column: 2 / 13;
@@ -236,10 +231,16 @@ main {
   grid-row: 5 / 6;
 }
 
+#fourth {
+  grid-column: 2 / 13;
+  grid-row: 6 / 7;
+}
+
 .horizonal-article-img-container {
   width: 25%;
   height: auto;
-  flex-shrink: 0;
+  object-fit: cover;
+
 }
 .horizonal-article-img-container img {
   width: 100%;
@@ -294,6 +295,8 @@ main {
   grid-area: sidebar;
   display:flex;
   flex-direction: column;
+  background-color: #38579E;
+  padding-top: 30px;
 
 
 }

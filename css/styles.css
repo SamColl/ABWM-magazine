@@ -200,60 +200,35 @@ main {
   text-align: center;
 }
 
-/* horizontal article section */
+/* standard article section */
 
-.horizontal-article-container {
-  align-items: center;
+.standard-article-container-main {
+  grid-column: 2 / 13;
+  grid-row: 3/  4;
   display: flex;
-  object-fit: cover;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.standard-article-container {
+
+  width: 30%;
+  position: relative;
   background-color: white;
-  padding: 10px;
-  -webkit-box-shadow: inset 0px 1px 13px -4px rgba(5,5,5,1);
-  -moz-box-shadow: inset 0px 1px 13px -4px rgba(5,5,5,1);
-  box-shadow: inset 0px 1px 13px -4px rgba(5,5,5,1);
-}
-
-
-#first {
-  grid-column: 2 / 13;
-  grid-row: 3 / 4;
+  margin-bottom:30px;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
 
 }
-
-#second {
-  grid-column: 2 / 13;
-  grid-row: 4 / 5;
-}
-
-#third {
-  grid-column: 2 / 13;
-  grid-row: 5 / 6;
-}
-
-#fourth {
-  grid-column: 2 / 13;
-  grid-row: 6 / 7;
-}
-
-.horizonal-article-img-container {
-  width: 25%;
-  height: auto;
+.standard-article-img-container {
+  height: 150px;
   object-fit: cover;
+  overflow: hidden;
+
 
 }
-.horizonal-article-img-container img {
-  width: 100%;
-  height: auto;
-}
-.horizontal-article-text-container {
-  width: 75%;
-  margin: 20px 10px 20px 30px;
-}
-.horizontal-article-text-container h2
- {
-  padding-left: 20px;
-}
+
 /*regular features */
 
 .regular-features-article-container-main {
@@ -261,10 +236,11 @@ main {
   grid-row: 7/  8;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 .regular-features-article-container {
-  width: 30%;
+  width: 22%;
   position: relative;
   background-color: white;
   margin-bottom:30px;
@@ -279,7 +255,8 @@ main {
   overflow: hidden;
 
 }
-.regular-features-img-container img {
+.regular-features-img-container img,
+.standard-article-img-container img{
   width: 100%;
 }
 .regular-title {
@@ -340,7 +317,6 @@ main {
 .adverts {
 
   height: 600px;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -355,14 +331,24 @@ main {
   background-color: lightpink;
   margin: 2px auto;
 }
-/*
-#ad2,
-#ad4 {
-  width: 300px;
-  height: 250px;
-  background-color: lightgrey;
-  margin: 10px 0px;
-} */
+
+.advertorial {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.advertorial-img-container {
+  margin: 0 auto;
+}
+.advertorial-img-container img {
+  max-width: 250px;
+
+
+
+}
 
 /*footer styles*/
 

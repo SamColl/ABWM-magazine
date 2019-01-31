@@ -46,6 +46,7 @@ body {
   grid-template-rows: auto;
   grid-column-gap: 20px;
   grid-template-areas:
+    "top-ad top-ad top-ad"
     "header header header"
     "main main sidebar"
     "footer footer footer";
@@ -62,10 +63,12 @@ header {
   width: 100%;
   height: 200px;
   border-bottom: 1.5px solid rgb(77, 77, 77, 0.2);
+  border-top: 1.5px solid rgb(77, 77, 77, 0.2);
 
 }
  .top-advert {
-   grid-column: 1 / 4;
+  grid-area: top-ad;
+  margin: 0 auto;
  }
 .top-advert img {
   height: 300px;

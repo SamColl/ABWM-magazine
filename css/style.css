@@ -37,6 +37,9 @@ h3 {
      text-decoration: none;
      color: black;
    }
+  a:hover {
+    color: blue;
+  }
    .read-more {
      color: red;
    }
@@ -44,7 +47,6 @@ body {
   display: grid;
   grid-template-columns: 1.1fr 1.1fr 0.8fr;
   grid-template-rows: auto;
-  grid-column-gap: 20px;
   grid-template-areas:
     "top-ad top-ad top-ad"
     "header header header"
@@ -64,11 +66,18 @@ header {
   height: 200px;
   border-bottom: 1.5px solid rgb(77, 77, 77, 0.2);
   border-top: 1.5px solid rgb(77, 77, 77, 0.2);
+  background-color: white;
+
 
 }
  .top-advert {
   grid-area: top-ad;
   margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -20;
+
  }
 .top-advert img {
   height: 300px;
@@ -172,6 +181,12 @@ main {
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
+}
+.featured-full-article-container:hover{
+  opacity: 0.5;
+}
+.featured-full-article-container:active{
+  box-shadow: none;
 }
 
 .featured-full-article-text-container {
@@ -381,7 +396,7 @@ main {
   display:flex;
   flex-direction: column;
   padding-top: 30px;
-  margin-bottom
+  background-color: white;
 }
 
 .chair-chat {

@@ -204,7 +204,6 @@ main {
   max-width: 800px;
   position: relative;
   background-color: white;
-  margin-bottom:30px;
   margin: 0 auto 30px auto;
   border: 1px solid #eaeaea;
   border-radius: 4px;
@@ -220,21 +219,19 @@ main {
   -webkit-box-shadow: 1px 1px 1px #777;
   -moz-box-shadow: 1px 1px 1px #777;
 }
-
 .featured-full-article-text-container {
   background-color: white;
   text-align: center;
   padding-bottom: 10px;
   text-align: center;
+  position: absolute;
+  bottom: 50px;
 }
 
-.featured-full-article-image-container {
-  height: 350px;
-  object-fit: cover;
-  overflow: hidden;
-}
 .featured-full-article-image-container img {
-  width: 100%;
+  width: 850px;
+  height: auto;
+  object-fit: contain;
 }
 
 /* featured half article containers */

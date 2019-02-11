@@ -221,7 +221,8 @@ main {
   padding-bottom: 10px;
   text-align: center;
   position: absolute;
-  bottom: 50px;
+  bottom: 70px;
+  height: 70px;
 }
 
 .featured-full-article-image-container img {
@@ -255,7 +256,9 @@ main {
 .article-text-container {
   height: 80px;
 }
-
+.article-text-container h3 {
+  margin-bottom: 10px;
+}
 
 
 .article-container-main {
@@ -275,16 +278,21 @@ main {
   display:flex;
   flex-direction: column;
   padding-top: 30px;
-  background-color: white;
+  background-color: #f2f2f2;
+
 }
 
 .chair-chat {
   position: relative;
-  width: 220px;
+  width: 240px;
   margin: 0 auto 30px auto;
- box-shadow: 3px 3px 3px #777;
+ box-shadow: 5px 5px 5px #777;
+ -webkit-box-shadow: 5px 5px 5px #777;
+ -moz-box-shadow: 5px 5px 5px #777;
+
 
 }
+
 
 .chair-chat img {
   border: 20px solid #fff;

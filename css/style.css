@@ -17,7 +17,7 @@ h3 {
 
 }
 h5 {
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
  p {
    font-size: 0.8em;
@@ -102,66 +102,59 @@ header {
 
 }
 
-i.fa.fa-facebook-square,
-i.fa.fa-twitter-square
+i.fa.fa-facebook-square
+
  {
   color: #012169;
   padding: 0 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
   float: left;
 }
-.sponsored-by-text {
-  float: right;
-  margin-right: 200px;
-}
+
+
 .maintop {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
-.logo {
+.text-logo {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
 }
-.magazine-sponsors {
-  grid-column: 3 / 4;
-  grid-row: 1 / 3;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20px 60px 20px;
-}
-.main-mag-sponsor {
-  grid-column: 3/ 4;
-  grid-row: 1 / 3;
-}
-.magazine-sponsors h5{
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
-  padding: auto 0;
 
+
+.logo img
+{
+  height: 80px;
+}
+.logo {
+  text-align: center;
+}
+.sponsors {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 
 }
-.top-sponsor-right {
-text-align: center;
-
+.sponsor-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/*
-.top-sponsor-right,
-.top-sponsor-left {
-  width: 30%;
-  margin-top: 0px;
-  margin-left: 50px;
 
+
+.logo,
+.text-logo,
+.sponsors {
+  width: 33%;
+  height: 100%;
 }
-*/
-
-
 
   .maintop h1 {
     margin-bottom: 0;

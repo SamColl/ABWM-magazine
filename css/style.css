@@ -207,6 +207,8 @@ main {
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
   height: 650px;
+  overflow: hidden;
+
 }
 
 .featured-full-article-text-container {
@@ -220,10 +222,24 @@ main {
 
 }
 
+.featured-full-article-container {
+
+}
+
 .featured-full-article-image-container img {
   width: 850px;
   height: auto;
   object-fit: contain;
+  transition: all 0.7s;
+
+}
+
+.featured-full-article-image-container img:hover,
+.article-img-container img:hover {
+  -moz-transform: scale(1.06);
+   -webkit-transform: scale(1.06);
+   transform: scale(1.06);
+
 }
 .article-link {
   transition: color 0.75s ease;
@@ -250,6 +266,7 @@ main {
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
+
 }
 
 .article-img-container {
@@ -258,9 +275,9 @@ main {
   overflow: hidden;
 }
 
-.article-img-container img,
-.article-img-container img{
+.article-img-container img {
   width: 100%;
+  transition: all 0.7s;
 }
 
 .article-text-container {

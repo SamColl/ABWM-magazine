@@ -217,6 +217,7 @@ main {
   position: absolute;
   bottom: 70px;
   height: 70px;
+
 }
 
 .featured-full-article-image-container img {
@@ -224,9 +225,21 @@ main {
   height: auto;
   object-fit: contain;
 }
+.article-link {
+  transition: color 0.75s ease;
+}
+.article-link:hover
 
-.main-article-link a:hover {
-  background-color: pink;
+ {
+  color: #012169;
+  background-color: #f2f2f2;
+
+}
+ .featured-full-article-container:active,
+ .article-container:active {
+  -webkit-box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  box-shadow: 1px 1px 1px #777;
 }
 /* featured half article containers */
 .article-container {
@@ -253,6 +266,7 @@ main {
 .article-text-container {
   height: 80px;
 }
+
 .article-text-container h3 {
   margin-bottom: 10px;
 }

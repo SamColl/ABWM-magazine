@@ -61,7 +61,6 @@ body {
   font-family: Helvetica ,sans-serif;
   -moz-osx-font-smoothing: grayscale;
 
-
 }
 /* header styles*/
 
@@ -140,12 +139,23 @@ i.fa.fa-facebook-square
 .logo {
   text-align: center;
 }
+
+
+}
 .sponsors {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
 
 }
+@media only screen and  (min-width: 738px) {
+  .mobile-sponsors {
+    display: none;
+  }
+}
+
+
+
 .sponsor-container {
   display: flex;
   align-items: flex-start;
@@ -443,4 +453,72 @@ footer {
 }
 .website-promo h2:hover {
   color: #690121;
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 375px) {
+
+
+body,
+.maintop,
+main {
+  display: block;
+}
+.top-advert,
+.top-advert img {
+  display:none;
+}
+.body {
+  max-width: 100%;
+}
+header {
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+  border-top: none;
+  height: 180px;
+
+}
+.logo,
+.logo img {
+  display: none;
+}
+.text-logo h1 {
+  font-size: 3em;
+}
+.text-logo h3 {
+  font-size: 1em;
+  margin:0px;
+}
+.logo,
+.text-logo,
+.sponsors {
+  width: 100%;
+  height: 100%;
+}
+.sponsors {
+  display: none;
+}
+.mobile-sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.featured-full-article-container {
+  height: auto;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+  border-top: none;
+}
+.featured-full-article-image-container img {
+  width: 100%;
+}
+.featured-full-article-text-container {
+    position: static;
+    bottom: 0px;
+    height: auto;
+}
+}
 }

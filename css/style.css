@@ -78,9 +78,6 @@ header {
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px  3px #777;
-
-
-
 }
  .top-advert {
   grid-area: top-ad;
@@ -89,40 +86,28 @@ header {
   position: sticky;
   top: 0;
   z-index: -20;
-
  }
 .top-advert img {
   height: 300px;
   width: 720px;
   text-align: center;
-
-
-
 }
 .socials {
   float: left;
-
 }
-
 i.fa.fa-facebook-square
-
  {
   color: #012169;
   padding:   5px 10px;
   font-size: 1.8em;
   float: left;
-
 }
-
-
-
 .maintop {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-around;
   padding-bottom: 5px;
-
 }
 .text-logo {
   grid-column: 2 / 3;
@@ -130,8 +115,6 @@ i.fa.fa-facebook-square
   display: flex;
   flex-direction: column;
 }
-
-
 .logo img
 {
   height: 100px;
@@ -139,14 +122,10 @@ i.fa.fa-facebook-square
 .logo {
   text-align: center;
 }
-
-
-
 .sponsors {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
-
 }
 @media only screen and  (min-width: 480px) {
   .mobile-sponsors {
@@ -466,8 +445,9 @@ main {
 .top-advert img {
   display:none;
 }
-.body {
-  max-width: 100%;
+body
+ {
+  width: 100%;
 }
 header {
   -webkit-box-shadow:none;

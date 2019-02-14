@@ -5,6 +5,8 @@ html {
 
 h1 {
   font-size: 1.75em;
+  color: #303133;
+  text-align: center;
 }
 h2 {
   font-size: 1.2em;
@@ -177,58 +179,38 @@ i.fa.fa-facebook-square
 /*featured content area styles */
 main {
   grid-area: main;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
+
   background-color: #f2f2f2;
   padding-top: 30px;
 }
 
+
+
+
+
+
 .featured-full-article-container {
-  grid-column: 1 / 13;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
+  flex-basis:95%;
   position: relative;
   background-color: white;
-  margin: 0 auto 30px auto;
-  border: 1px solid #eaeaea;
-  border-radius: 4px;
+  margin-bottom:30px;
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
-  height: 650px;
+}
+.featured-full-article-image-container {
+  object-fit: cover;
   overflow: hidden;
-
 }
-
-.featured-full-article-text-container {
-  background-color: white;
-  text-align: center;
-  padding-bottom: 10px;
-  text-align: center;
-  position: absolute;
-  bottom: 70px;
-  height: 70px;
-
-}
-
-
 .featured-full-article-image-container img {
-  width: 850px;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
   transition: all 0.7s;
-
 }
-
 .featured-full-article-image-container img:hover,
 .article-img-container img:hover {
-  -moz-transform: scale(1.06);
-   -webkit-transform: scale(1.06);
-   transform: scale(1.06);
-
+  -moz-transform: scale(1.03);
+   -webkit-transform: scale(1.03);
+   transform: scale(1.03);
 }
 .article-link {
   transition: color 0.75s ease;
@@ -248,7 +230,7 @@ main {
 }
 
 .article-container {
-  width: 45%;
+  flex-basis: 45%;
   position: relative;
   background-color: white;
   margin-bottom:30px;
@@ -276,7 +258,6 @@ main {
 .article-text-container h3 {
   margin-bottom: 10px;
 }
-
 
 .article-container-main {
   grid-column: 1 / 13;

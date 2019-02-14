@@ -520,5 +520,31 @@ header {
     bottom: 0px;
     height: auto;
 }
+.featured-full-article-text-container h1 {
+font-size: 1.4em;
+}
+.featured-full-article-image-container img:hover,
+.article-img-container img:hover {
+  -moz-transform: none;
+   -webkit-transform: none;
+   transform: none;
+}
+.article-container {
+  width: 100%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.adverts {
+  display: none;
+}
+footer {
+  display: block;
+
+}
+.website-promo,
+.footer-nav,
+.customer-logos {
+  max-width: 100%;
 }
 }

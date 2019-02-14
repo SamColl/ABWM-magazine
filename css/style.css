@@ -148,7 +148,7 @@ i.fa.fa-facebook-square
   justify-content: space-evenly;
 
 }
-@media only screen and  (min-width: 738px) {
+@media only screen and  (min-width: 375px) {
   .mobile-sponsors {
     display: none;
   }
@@ -457,8 +457,6 @@ footer {
 
 /*mobile devices*/
 @media only screen and (max-width: 375px) {
-
-
 body,
 .maintop,
 main {
@@ -477,7 +475,6 @@ header {
   box-shadow:none;
   border-top: none;
   height: 180px;
-
 }
 .logo,
 .logo img {
@@ -503,7 +500,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .featured-full-article-container {
   height: auto;
@@ -540,7 +536,6 @@ font-size: 1.4em;
 }
 footer {
   display: block;
-
 }
 .website-promo,
 .footer-nav,

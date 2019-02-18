@@ -51,7 +51,7 @@ h5 {
    }
 body {
   display: grid;
-  grid-template-columns: 1.1fr 1.1fr 0.8fr;
+  grid-template-columns: 1.15fr 1.15fr 0.7fr;
   grid-template-rows: auto;
   grid-template-areas:
     "top-ad top-ad top-ad"
@@ -66,27 +66,14 @@ body {
 
 header {
   grid-area: header;
-  width: 98%;
-  height: 160px;
-  border-bottom: 1.5px solid rgb(77, 77, 77, 0.2);
-  border-top: 1.5px solid rgb(77, 77, 77, 0.4);
-  background-color: white;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0px;
-  z-index: 10;
-  -webkit-box-shadow: 3px 3px 3px #777;
-  -moz-box-shadow: 3px 3px 3px #777;
-  box-shadow: 3px 3px  3px #777;
   margin: 0 auto;
 }
+
+
  .top-advert {
   grid-area: top-ad;
   margin: 0 auto;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: -20;
+
  }
 .top-advert img {
   height: auto;
@@ -102,6 +89,7 @@ i.fa.fa-facebook-square
   font-size: 1.8em;
   float: left;
 }
+/*
 .maintop {
   display: flex;
   align-items: center;
@@ -109,6 +97,7 @@ i.fa.fa-facebook-square
   justify-content: space-around;
   padding-bottom: 5px;
 }
+*/
 .text-logo {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
@@ -177,7 +166,7 @@ i.fa.fa-facebook-square
 /*featured content area styles */
 main {
   grid-area: main;
-
+  display: flex;
   background-color: #f2f2f2;
   padding-top: 30px;
 }

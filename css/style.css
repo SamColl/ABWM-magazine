@@ -169,6 +169,7 @@ main {
   display: flex;
   background-color: #f2f2f2;
   padding-top: 30px;
+  align-items: flex-start;
 }
 .featured-full-article-container {
   flex-basis:95%;
@@ -264,7 +265,7 @@ main {
 
 .chair-chat {
   position: relative;
-  width: 240px;
+  width: 90%;
   margin: 0 auto 30px auto;
  box-shadow: 5px 5px 5px #777;
  -webkit-box-shadow: 5px 5px 5px #777;
@@ -275,7 +276,7 @@ main {
 
 
 .chair-chat img {
-  width: 240px;
+  width: 100%;
   height: auto;
   border: 20px solid #fff;
   border-bottom: 120px solid #fff;
@@ -307,10 +308,15 @@ main {
   padding-left: 10px;
 }
 .adverts {
-  margin: 0 auto;
-  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  
 }
+.adverts img {
+  width: 100%;
+  height: auto;
 
+}
 footer {
   grid-area: footer;
   display: flex;

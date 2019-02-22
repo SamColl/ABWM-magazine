@@ -97,7 +97,7 @@ out {
 
   .shrink {
   background-image: url("../images/ABWM_header-half.jpg");
-  height: 125px;
+  height: 100px;
   }
  .top-advert {
   grid-area: top-ad;
@@ -122,8 +122,8 @@ i.fa.fa-facebook-square
   font-size: 1.8em;
   float: left;
 }
-@media screen and (min-width: 480px) {
-  .mobile-adverts {
+@media only screen and (min-width: 480px) {
+  .mobile-advert {
     display: none;
   }
 }

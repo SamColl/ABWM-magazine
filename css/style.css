@@ -2,19 +2,14 @@
 html {
   box-sizing: border-box;
   margin: 0 auto;
-
 }
-
-
 html,
 body
  {
   max-width: 100vw;
   max-height: 100vh
-
 }
 .wrapper {
-
   display: grid;
   grid-template-columns: 1.15fr 1.15fr 0.7fr;
   grid-template-rows: auto;
@@ -26,7 +21,6 @@ body
   max-width: 1400px;
   font-family: Helvetica ,sans-serif;
   -moz-osx-font-smoothing: grayscale;
-
 }
 h1 {
   font-size: 1.75em;
@@ -73,28 +67,13 @@ h5 {
    .read-more {
      color: red;
    }
-   /*
-body {
-  display: grid;
-  grid-template-columns: 1.15fr 1.15fr 0.7fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "top-ad top-ad top-ad"
-    "header header header"
-    "main main sidebar"
-    "footer footer footer";
-  width: 100%;
-  font-family: Helvetica ,sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-} */
-/* header styles*/
+
 
 header {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/ABWM_masthead1_with text.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   grid-area: header;
   margin: 0 auto;
   position: sticky;
@@ -109,15 +88,19 @@ header {
 header img {
   width: 100%;
 }
+/*
 out {
   -moz-transition: all 0.6s ease-in-out
-  z-index: 9999
-  top: 0
-  position: fixed }
-
+}
+*/
   .shrink {
-  background-image: url("../images/ABWM_header-half.jpg");
-  height: 100px;
+  background-image: url("../images/1300 x 100 banner.jpg");
+  height: 97px;
+  transition: all 0.6s ease-in-out
+  -webkit-transition: all 0.6s ease-in-out;
+  z-index: 9999;
+  top: 0;
+  position: fixed;
   }
  .top-advert {
   grid-area: top-ad;

@@ -93,6 +93,7 @@ out {
   -moz-transition: all 0.6s ease-in-out
 }
 */
+/* javascript add class */
   .shrink {
   background-image: url("../images/1300 x 100 banner.jpg");
   height: 97px;
@@ -102,6 +103,8 @@ out {
   top: 0;
   position: fixed;
   }
+
+
  .top-advert {
   grid-area: top-ad;
   margin: 0 auto;
@@ -156,15 +159,7 @@ main {
   width: 100%;
   text-align: center;
 }
-#sponsors {
 
-
-
-
-}
-#facebook {
-
-}
 .featured-full-article-container {
   flex-basis:95%;
   position: relative;
@@ -173,6 +168,13 @@ main {
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
+}
+.featured-full-article-text-container {
+  height: 120px;
+  padding-top: 25px;
+}
+.featured-full-article-text-container h1 {
+  margin-bottom: 15px;
 }
 .featured-full-article-image-container {
   object-fit: cover;
@@ -228,7 +230,8 @@ main {
 }
 
 .article-text-container {
-  height: 100px;
+  height: 120px;
+  padding-top: 25px;
 }
 
 .article-text-container h3 {
@@ -428,21 +431,36 @@ header img {
 .featured-full-article-container,
 .article-container {
   display: flex;
-  width: 95%;
+  flex-basis: 100%;
   -webkit-box-shadow:none;
   -moz-box-shadow:none;
   box-shadow:none;
   border-top: none;
 }
-.featured-full-article-image-container img {
-  width: 100%;
+.article-link {
+
 }
+.article-img-container,
+.featured-full-article-image-container {
+  width: 120px;
+  object-fit: cover;
+  overflow: hidden;
+
+}
+.article-img-container img,
+.featured-full-article-image-container img {
+  height: auto;
+}
+
 .featured-full-article-text-container {
     position: static;
     bottom: 0px;
-    height: auto;
+    height: 30px;
+    flex-basis: 66%;
 }
-.featured-full-article-text-container h1 {
+
+.featured-full-article-text-container h1,
+.article-text-container h3 {
 font-size: 0.75em;
 }
 .featured-full-article-image-container img:hover,

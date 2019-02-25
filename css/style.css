@@ -72,7 +72,7 @@ h5 {
 header {
   background-image: url("../images/ABWM_masthead1_with text.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: contain;
   grid-area: header;
   margin: 0 auto;
@@ -401,7 +401,8 @@ footer {
   display: block;
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width:480px;
+
 }
 .top-advert {
   display: none;
@@ -445,6 +446,7 @@ header img {
   width: 120px;
   object-fit: cover;
   overflow: hidden;
+  height: auto;
 
 }
 .article-img-container img,

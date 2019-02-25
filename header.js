@@ -1,6 +1,6 @@
-var x = window.matchMedia("(min-width: 1000px)");
 
-function largeScreen (x) {
+
+
 
 $(document).on("scroll", function(){
 		if
@@ -13,4 +13,3 @@ $(document).on("scroll", function(){
 			$("header").removeClass("shrink", 1000);
 		}
 	});
-};

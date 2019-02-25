@@ -85,23 +85,28 @@ header {
   height: 250px;
 
 }
+/*test*/
+#header-test {
+  position: static !important;
+}
 header img {
   width: 100%;
 }
-/*
-out {
-  -moz-transition: all 0.6s ease-in-out
-}
-*/
+
 /* javascript add class */
   .shrink {
-  background-image: url("../images/1300 x 100 banner.jpg");
   height: 97px;
+  width: 100%;
   transition: all 0.6s ease-in-out
   -webkit-transition: all 0.6s ease-in-out;
   z-index: 9999;
   top: 0;
-  position: fixed;
+  position: sticky;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+
   }
 
 

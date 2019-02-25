@@ -89,6 +89,9 @@ header {
 #header-test {
   position: static !important;
 }
+#header-test2  {
+  position: sticky;
+}
 header img {
   width: 100%;
 }

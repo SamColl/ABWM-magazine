@@ -1,0 +1,18 @@
+#film-review {
+  flex-direction: column;
+}
+.reviews {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+
+}
+.reviews p {
+  line-height: 1.5em;
+  text-align: justify;
+}
+.review1 {
+  display: flex;
+
+}

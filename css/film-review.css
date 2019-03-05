@@ -3,16 +3,36 @@
 }
 .reviews {
   display: flex;
-  background-color: white;
   padding: 20px;
   margin: 20px;
+  flex-direction: column;
 
 }
 .reviews p {
   line-height: 1.5em;
   text-align: justify;
 }
-.review1 {
+.review-text p::first-letter {
+  font-size: 200%;
+}
+.review1,
+.review2 {
   display: flex;
+  background-color: white;
+  margin-top: 30px;
+}
+.review1 img,
+.review2 img {
+  width: 300px;
+  padding-top: 20px;
+}
+.stars {
+  padding: 20px;
+}
+.checked {
+  color: orange;
+}
+.film-image-container {
+  padding:20px;
 
 }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>ABWM Mag Film Reviews</title>
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link href="css/carousel.css" rel="stylesheet">
+<script type="text/javascript" src="carousel.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/film-reviews.css">
+ </head>
+ <body>
+  <div class="wrapper">
+   <div class="top-advert">
+     <img src="images/platinum-full-width.jpg">
+   </div>
+   <div class="mobile-advert">
+     <img src="images/platinum-mobile-advert.jpg">
+   </div>
+   <!-- main header -->
+   <header id="header">
+
+  </header>
+
+  <!-- main content section -->
+   <main>
+   <div class="review1">
+     <div class="film-image-container">
+       <img src="../images/article-images/marypoppins.jpg">
+     </div>
+     <div class="film-text-container">
+       <div class="stars">
+       </div>
+       <div class="credits">
+         <p>Director:		Robert Marshall<br>
+           Starring:		Emily Blunt, Lin-Manuel Miranda, Ben Wishaw, Julie Walters, Dick Van dyke
+         </p>
+       </div>
+       <div class="review-text">
+         <p>Widowed Michael Banks, is trying hard to keep things together for the sake of his children and his sister.
+           On threat of his house being repossessed, (by the bank he works for)
+            he starts a desperate search for a shares certificate his late father
+            left. Meanwhile, the children are amazed when greeted by a lady, who
+             appears to be flying with an umbrella! Immediately she saves them from
+             imminent danger and tells them she is here to clean them up and look
+             after them, like she did their dad and auntie. Magical trips into days
+             gone by see Mary Poppins and her literal bag of tricks in action!
+             On finding the document and it being 1930 they know that unless they
+             can turn back time they won’t make it! In true Disney style, not only
+              do they stop and rewind time, they save the house and their family.
+              Mary Poppins’ work is now complete! Great film for all ages, catchy
+              songs and laughable antics for all.</p>
+       </div>
+       <div class="film-details">
+         Film Fact:     	Dick Van Dyke appears in the film, only having one role
+         this time, not two like the original!<br>
+         Length:		130 minutes<br>
+         Release Date:	23rd December <br>
+        Rating:		PG
+
+
+       </div>
+    </div>
+   </div>
+
+       </main>
+
+       <!-- side bar -->
+        <aside class="sidebar">
+
+          <div class="sponsor-banner">
+            <h4 id="mag-sponsor-text">Magazine Sponsor</h4>
+          <img id="sponsors" src="images/alicesmithlogo.jpg" height="120px" width="120px">
+
+          </div>
+
+
+          <div class="adverts">
+
+             <img src="images/goldstaradvert.jpg">
+           </div>
+            <div class="adverts">
+               <img src="images/gold-advert.jpg">
+             </div>
+             <div class="sponsor-banner">
+               <h4 id="mag-sponsor-text">Magazine Sponsor</h4>
+             <img id="sponsors" src="images/expatriatelawlogo.png">
+
+             </div>
+            <div class="adverts">
+               <img src="images/silver-advert.jpg">
+             </div>
+
+
+
+            <div class="adverts">
+               <img src="images/silver-advert.jpg">
+             </div>
+            <div class="adverts">
+               <img src="images/bronze-adverts.jpg">
+            </div>
+            <div class="adverts">
+              <img src="images/bronze-adverts.jpg">
+           </div>
+           <div class="adverts">
+             <img src="images/bronze-adverts.jpg">
+          </div>
+          <div class="adverts">
+            <img src="images/bronze-adverts.jpg">
+         </div>
+
+       </aside>
+
+
+   <footer>
+     <nav class="footer-nav">
+       <ul>
+         <li><a href="http://www.abwm.com.my/index.php/contact-us" target="_blank">Contact Us</a></li>
+         <li><a href="http://www.abwm.com.my/index.php/sponsorship-advertising" target="_blank">Advertisers</a></li>
+         <li><a href="http://www.abwm.com.my/index.php/join-us" target="_blank">Membership</a></li>
+       </ul>
+     </nav>
+
+
+     <h3 id="slider-text">Our annual partners</h3>
+     <section class="customer-logos slider">
+
+       <div class="slide"><img src="images/ba.png"></div>
+       <div class="slide"><img src="images/ags.png"></div>
+       <div class="slide"><img src="images/asiantigers.png"></div>
+
+    </section>
+
+     <button class="website-promo"><a href="http://www.abwm.com.my" target="_blank">
+
+       <h2>Visit our website</h2></a>
+     </button>
+
+   </footer>
+ </div>
+ </body>
+
+ </html>

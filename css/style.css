@@ -207,6 +207,13 @@ i.fa.fa-facebook-square
   #mobile-chair-chat {
     display: none;
   }
+
+  .mobile-sponsor-banner {
+    display: none
+  }
+  .expat-law-mobile {
+    display: none;
+  }
 }
 /*featured content area styles */
 main {
@@ -500,9 +507,7 @@ header {
 header img {
   width: 100%;
 }
-.shrink {
-  display:none;
-}
+
 .article-container-main {
   display: block;
   margin: 0 auto;
@@ -570,13 +575,31 @@ padding-left:10px;
    transform: none;
 }
 
+.mobile-sponsor-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  margin: 0 auto 20px auto;
+  flex-wrap: none;
+  padding: 10px;
+  flex-direction: column;
+  border: 1px solid silver;
 
-
+}
+.sponsor-banner {
+  display: none;
+}
+#alicesmithlogo_sponsor {
+  display: none;
+}
 .chair-chat
  {
   display: none;
 }
-
+#mobile-chair-chat-image {
+  height: 100px;
+}
  h4 {
   font-size: 0.65em;
   text-align: left;

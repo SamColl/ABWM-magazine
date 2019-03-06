@@ -57,7 +57,7 @@ h5 {
      font-size: 1.2em;
    }
    ul:first-child {
-     padding-top: 30px;
+     padding-top: 0px;
    }
    a {
      text-decoration: none;
@@ -91,9 +91,87 @@ h5 {
 header img {
   width: 100%;
 }
+/*breadcrumb naviagtion*/
+  .breadCrumbs {
+    position: relative;
+    display: block;
+  }
 
 
+  .breadCrumbs li {
+    position: relative;
+    float: left;
+  }
 
+  .breadCrumbs li a,
+  .breadCrumbs li p {
+    display: block;
+    padding: 0 10px 0 30px;
+    line-height: 20px;
+    color: #fff;
+    background: #253786;
+    font-size: 0.75em;
+  }
+
+  .breadCrumbs li:first-child a {
+    padding: 0 10px 0 20px;
+  }
+
+  .breadCrumbs li a:hover {
+
+  }
+
+  .breadCrumbs li.activePage p,
+  .breadCrumbs li.activePage a {
+    background: #333;
+  }
+
+  .breadCrumbs li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #253786;
+    z-index: 10;
+  }
+
+  .breadCrumbs li.activePage:after {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #333;
+  }
+
+  /* GIVE EVERY CHILD A DIFFERENT COLOR */
+  .breadCrumbs li:nth-child(1) a {
+    background: #253786;
+  }
+
+  .breadCrumbs li:nth-child(1):after {
+    border-left: 20px solid #253786;
+  }
+
+  .breadCrumbs li:nth-child(2) a {
+    background: #517bb8;
+  }
+
+  .breadCrumbs li:nth-child(2):after {
+    border-left: 20px solid #517bb8;
+  }
+
+  .breadCrumbs li:nth-child(3) a {
+    background: #a02161;
+  }
+
+  .breadCrumbs li:nth-child(3):after {
+    border-left: 20px solid #a02161;
+  }
+
+/* end of breadcrumb styles */
 
  .top-advert {
   grid-area: top-ad;

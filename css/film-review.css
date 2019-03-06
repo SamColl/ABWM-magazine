@@ -1,12 +1,20 @@
 #film-review {
   flex-direction: column;
 }
+#film-review > h1 {
+  padding-top: 70px;
+  text-align: center;
+}
 .reviews {
   display: flex;
   padding: 20px;
   margin: 20px;
   flex-direction: column;
 
+}
+.block {
+  display: block;
+  padding-top: 10px;
 }
 .reviews p {
   line-height: 1.5em;

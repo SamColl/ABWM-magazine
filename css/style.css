@@ -17,6 +17,7 @@ body
   grid-template-areas:
     "top-ad top-ad top-ad"
     "header header header"
+    "breadcrumb breadcrumb breadcrumb"
     "main main sidebar"
     "footer footer footer";
   max-width: 1400px;
@@ -97,7 +98,10 @@ header img {
     display: block;
   }
 
-
+  nav.breadCrumb-nav {
+    padding-top: 20px;
+    margin-left: -10px;
+  }
   .breadCrumbs li {
     position: relative;
     float: left;
@@ -209,7 +213,7 @@ main {
   grid-area: main;
   display: flex;
   background-color: #f2f2f2;
-  padding-top: 30px;
+  padding-top: 20px;
   align-items: flex-start;
   width: 100%;
 }

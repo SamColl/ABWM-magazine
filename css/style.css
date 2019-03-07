@@ -200,21 +200,7 @@ i.fa.fa-facebook-square
   font-size: 1.8em;
   float: left;
 }
-@media only screen and (min-width: 600px) {
-  .mobile-advert {
-    display: none;
-  }
-  #mobile-chair-chat {
-    display: none;
-  }
 
-  .mobile-sponsor-banner {
-    display: none
-  }
-  .expat-law-mobile {
-    display: none;
-  }
-}
 /*featured content area styles */
 main {
   grid-area: main;
@@ -628,6 +614,72 @@ footer {
 .customer-logos {
   width: auto;
 }
+}
+/* tablets */
+
+@media only screen and (min-width: 601px) and (max-width: 1154px){
+
+  .wrapper {
+    grid-template-areas:
+    "top-ad top-ad top-ad"
+    "header header header"
+    "breadcrumb breadcrumb breadcrumb"
+    "main main main"
+    "footer footer footer";
+  max-width: 1154px;
+  }
+   .sidebar {
+    display: none;
+}
+#header {
+  background-size: contain;
+  height: 215px;
+}
+.featured-full-article-container {
+  flex-basis: 45%;
+}
+.featured-full-article-image-container,
+.article-img-container {
+  height: 185px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.article-img-container img {
+  width: 100%;
+  transition: all 0.7s;
+
+}
+
+.article-text-container,
+.featured-full-article-text-container {
+  height: 120px;
+  padding-top: 10px;
+}
+
+.featured-full-article-text-container h1 {
+  font-size: 1.2em;
+}
+}
+
+@media only screen and (min-width: 1154px) {
+
+
+}
+@media only screen and (min-width: 600px) {
+  .mobile-advert {
+    display: none;
+  }
+  #mobile-chair-chat {
+    display: none;
+  }
+
+  .mobile-sponsor-banner {
+    display: none
+  }
+  .expat-law-mobile {
+    display: none;
+  }
 }
 /* large screens */
 

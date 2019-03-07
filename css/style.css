@@ -650,7 +650,13 @@ footer {
   transition: all 0.7s;
 
 }
+#tablet-chair-chat-img {
+  display: block;
+  text-align: center;
+  max-height: 200px;
+  width: auto;
 
+}
 .article-text-container,
 .featured-full-article-text-container {
   height: 120px;
@@ -663,8 +669,14 @@ footer {
 }
 
 @media only screen and (min-width: 1154px) {
+  #tablet-chair-chat {
+    display: none;
 
-
+}
+@media only screen and (max-width: 600px) {
+  #tablet-chair-chat {
+    display: none;
+  }
 }
 @media only screen and (min-width: 600px) {
   .mobile-advert {

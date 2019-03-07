@@ -200,7 +200,7 @@ i.fa.fa-facebook-square
   font-size: 1.8em;
   float: left;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
   .mobile-advert {
     display: none;
   }
@@ -481,7 +481,7 @@ height: 150px;}
 
 
 /*mobile devices*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .wrapper {
   display: block;
   margin: 0;
@@ -502,7 +502,7 @@ height: 150px;}
 }
 #header {
   width: 100%;
-  height: 90px;
+  height: 115px;
   background-size: contain;
 }
 

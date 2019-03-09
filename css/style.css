@@ -87,7 +87,10 @@ h5 {
   height: 250px;
 
 }
-
+.block {
+  display: block;
+  padding-top: 10px;
+}
 
 header img {
   width: 100%;

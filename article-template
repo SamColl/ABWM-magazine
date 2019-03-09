@@ -5,32 +5,46 @@
    <title>ABWM Mag</title>
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <link href="../css/carousel.css" rel="stylesheet">
+   <script type="text/javascript" src="../carousel.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+   <link rel="stylesheet" href="../css/font-awesome.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/article.css">
 
-<link href="css/carousel.css" rel="stylesheet">
-<script type="text/javascript" src="carousel.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+
  </head>
  <body>
   <div class="wrapper">
    <div class="top-advert">
-     <img src="images/platinum-full-width.jpg">
+     <img src="../images/platinum-full-width.jpg">
    </div>
    <div class="mobile-advert">
-     <img src="images/platinum-mobile-advert.jpg">
+     <img src="../images/platinum-mobile-advert.jpg">
    </div>
    <!-- main header -->
-   <header id="header">
 
-  </header>
+
+      <header id="header" onclick='window.location.href="https://samcoll.github.io/ABWM-magazine/"' style="cursor:pointer;">
+      </header>
+
 
   <!-- main content section -->
-   <main>
-
-
+  <main class="block">
+    <ul class="breadCrumbs">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#regular">Regular Features</a></li>
+      <li><a href="#">Film Reviews</a></li>
+    </ul>
+    <div class="mobile-sponsor-banner" id="film-review-sponsor">
+      <h4 id="mag-sponsor-text">Magazine Sponsor</h4>
+    <img id="sponsors" src="../images/alicesmithlogo.jpg" height="75px" width="auto">
+    </div>
+   
        </main>
 
        <!-- side bar -->
@@ -38,43 +52,43 @@
 
           <div class="sponsor-banner">
             <h4 id="mag-sponsor-text">Magazine Sponsor</h4>
-          <img id="sponsors" src="images/alicesmithlogo.jpg" height="120px" width="120px">
+          <img id="sponsors" src="../images/alicesmithlogo.jpg" height="120px" width="120px">
 
           </div>
 
 
           <div class="adverts">
 
-             <img src="images/goldstaradvert.jpg">
+             <img src="../images/goldstaradvert.jpg">
            </div>
             <div class="adverts">
-               <img src="images/gold-advert.jpg">
+               <img src="../images/gold-advert.jpg">
              </div>
              <div class="sponsor-banner">
                <h4 id="mag-sponsor-text">Magazine Sponsor</h4>
-             <img id="sponsors" src="images/expatriatelawlogo.png">
+             <img id="sponsors" src="../images/expatriatelawlogo.png">
 
              </div>
             <div class="adverts">
-               <img src="images/silver-advert.jpg">
+               <img src="../images/silver-advert.jpg">
              </div>
 
 
 
             <div class="adverts">
-               <img src="images/silver-advert.jpg">
+               <img src="../images/silver-advert.jpg">
              </div>
             <div class="adverts">
-               <img src="images/bronze-adverts.jpg">
+               <img src="../images/bronze-adverts.jpg">
             </div>
             <div class="adverts">
-              <img src="images/bronze-adverts.jpg">
+              <img src="../images/bronze-adverts.jpg">
            </div>
            <div class="adverts">
-             <img src="images/bronze-adverts.jpg">
+             <img src="../images/bronze-adverts.jpg">
           </div>
           <div class="adverts">
-            <img src="images/bronze-adverts.jpg">
+            <img src="../images/bronze-adverts.jpg">
          </div>
 
        </aside>
@@ -93,9 +107,9 @@
      <h3 id="slider-text">Our annual partners</h3>
      <section class="customer-logos slider">
 
-       <div class="slide"><img src="images/ba.png"></div>
-       <div class="slide"><img src="images/ags.png"></div>
-       <div class="slide"><img src="images/asiantigers.png"></div>
+       <div class="slide"><img src="../images/ba.png"></div>
+       <div class="slide"><img src="../images/ags.png"></div>
+       <div class="slide"><img src="../images/asiantigers.png"></div>
 
     </section>
 

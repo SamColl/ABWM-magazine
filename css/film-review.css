@@ -1,5 +1,6 @@
 #film-review {
   flex-direction: column;
+
 }
 #film-review > h1 {
   padding-top: 70px;
@@ -23,14 +24,14 @@
 .review-text p::first-letter {
   font-size: 200%;
 }
-.review1,
-.review2 {
-  display: flex;
+.review{
+  display: block;
   background-color: white;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
-.review1 img,
-.review2 img {
+.review img
+ {
   width: 300px;
   padding-top: 20px;
 }
@@ -43,4 +44,17 @@
 .film-image-container {
   padding:20px;
 
+}
+#film-review-sponsor {
+  margin-top: 50px;
+}
+/* styles for mobile screens */
+
+
+/*styles for tablet screens */
+
+@media only screen and (max-width: 970px) {
+  .film-image-container img {
+  max-width: 200px;
+  }
 }

@@ -683,13 +683,11 @@ footer {
 
 }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 701px) {
   #tablet-chair-chat {
     display: none;
   }
-  .mobile-advert {
-    display: none;
-  }
+
 }
 @media only screen and (min-width: 700px) {
   .mobile-advert {
@@ -704,6 +702,11 @@ footer {
   }
   .expat-law-mobile {
     display: none;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  #header {
+    height: 135px;
   }
 }
 /* large screens */

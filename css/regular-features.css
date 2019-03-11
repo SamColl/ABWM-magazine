@@ -71,9 +71,12 @@
   margin: 20px;
   padding: 20px;
 }
-.school-img-container img {
+.school-img {
   padding: 20px 0px 20px 20px;
   float: right;
+}
+.school-logo {
+  max-width: 400px;
 }
  figcaption  {
   font-size: 0.75em;
@@ -85,3 +88,31 @@
 .school-title > h2 {
   padding:20px;
 }
+.school-img {
+  max-width: 450px;
+}
+/* mobile styles */
+
+@media only screen and (max-width: 700px) {
+  .breadCrumbs {
+    display: none;
+  }
+  .school-logo {
+    max-width: 350px;
+  }
+  .school-img {
+    max-width: 350px;
+    float: none;
+  }
+  .school {
+    margin: 20px 0px;
+    padding: 0px;
+  }
+  .feature-title {
+    margin-bottom: 20px;
+  }
+  figcaption {
+    margin-bottom: 20px;
+    float: none;
+  }
+  }

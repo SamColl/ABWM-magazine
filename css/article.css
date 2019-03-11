@@ -176,3 +176,71 @@ th {
   grid-row: 46/47;
   grid-column: 6 / 10;
 }
+
+.features-text-container {
+grid-column: 1 / 10;
+grid-row-start: 4;
+line-height: 1.5em;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.features-text,
+.regular-features-text {
+  line-height: 1.5em;
+  text-align: justify;
+}
+.features-text::first-letter,
+.regular-features-text::first-letter {
+  font-size: 200%;
+}
+.feature-list {
+  font-size: 0.7em;
+  grid-row-start: 33;
+  grid-column: 1 / 5;
+  padding-top: 20px;
+}
+.feature-list > li {
+  list-style: circle;
+}
+.home-of-peace-logo {
+  grid-column-start: 1;
+  grid-row: 2 / 7;
+  background-color: white;
+}
+#features-text1 {
+grid-column: 3 / 10;
+grid-row-start: 2;
+}
+#features-text2 {
+  grid-column: 1 / 10;
+  grid-row-start: 6;
+
+}
+
+#features-text3 {
+  grid-column: 1 / 5;
+  grid-row-start: 38;
+}
+.home-of-peace-article-img {
+  max-width: 450px;
+  min-width: 300px;
+  margin: 20px;
+}
+#image1,
+#image3 {
+  float: right;
+}
+#image2 {
+  float: left;
+}
+#image3 {
+  grid-column: 5 /9;
+  grid-row-start: 33;
+}
+.KTS {
+  grid-column: 1 / 10;
+  grid-row: 42 / 43;
+  font-size: 0.7em;
+}

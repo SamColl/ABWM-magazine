@@ -69,4 +69,19 @@
 .school {
   background-color: white;
   margin: 20px;
+  padding: 20px;
+}
+.school-img-container img {
+  padding: 20px 0px 20px 20px;
+  float: right;
+}
+ figcaption  {
+  font-size: 0.75em;
+  font-style: italic;
+  max-width: 450px;
+  float: right;
+  padding-left: 20px;
+}
+.school-title > h2 {
+  padding:20px;
 }

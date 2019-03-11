@@ -176,3 +176,7 @@ th {
   grid-row: 46/47;
   grid-column: 6 / 10;
 }
+
+.school img {
+  max-width: 450px;
+}

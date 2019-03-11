@@ -6,30 +6,30 @@
   padding-top: 70px;
   text-align: center;
 }
-.reviews {
+.review {
   display: flex;
   padding: 20px;
   margin: 20px;
-  flex-direction: column;
+  background-color: white;
 
+}
+.reviews{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .block {
   display: block;
   padding-top: 10px;
 }
-.reviews p {
+.review p {
   line-height: 1.5em;
   text-align: justify;
 }
 .review-text p::first-letter {
   font-size: 200%;
 }
-.review{
-  display: block;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 .review img
  {
   width: 300px;

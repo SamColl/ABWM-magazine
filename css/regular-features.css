@@ -1,0 +1,72 @@
+.feature-title {
+  flex-direction: column;
+
+}
+.feature-title > h1 {
+  padding-top: 70px;
+  text-align: center;
+}
+
+/* film review styles */
+
+.review {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+
+}
+.reviews{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.block {
+  display: block;
+  padding-top: 10px;
+}
+.regular-features-text {
+  line-height: 1.5em;
+  text-align: justify;
+}
+.regular-features-text::first-letter {
+  font-size: 200%;
+}
+
+.review img
+ {
+  width: 300px;
+  padding-top: 20px;
+}
+.stars {
+  padding: 20px;
+}
+.checked {
+  color: orange;
+}
+.film-image-container {
+  padding:20px;
+
+}
+#film-review-sponsor {
+  margin-top: 50px;
+}
+#film-review-advert {
+  margin: 20px auto 20px auto;
+}
+/* styles for mobile screens */
+
+
+/*styles for tablet screens */
+
+@media only screen and (max-width: 970px) {
+  .film-image-container img {
+  max-width: 200px;
+  }
+}
+
+/* school news styles */
+.school {
+  background-color: white;
+  margin: 20px;
+}

@@ -261,9 +261,9 @@ font-size: 0.7em;
 }
 .pasta-pic-gallery-side {
   grid-column: 5/10;
-  grid-row-start: 15;
+  grid-row: 15 / 33;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-gap: 15px;
   align-items: start;
   justify-items: center;
@@ -279,7 +279,9 @@ font-size: 0.7em;
       grid-row: 35 / 48;
 }
 
-
+#pasta-making-hero {
+  box-shadow: none;
+}
 .pasta-pic-gallery-side figure  img {
   max-width: 200px;
 }

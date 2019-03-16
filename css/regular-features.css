@@ -25,14 +25,8 @@
   display: block;
   padding-top: 10px;
 }
-.regular-features-text {
-  line-height: 1.5em;
-  text-align: justify;
 
-}
-.regular-features-text::first-letter {
-  font-size: 200%;
-}
+
 
 
 .review img
@@ -89,6 +83,10 @@
 }
 .school-title > h2 {
   padding:20px;
+  padding-left:50px;
+}
+.school-title > img {
+  padding-left: 30px;
 }
 .school-img {
   max-width: 450px;

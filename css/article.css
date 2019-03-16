@@ -87,6 +87,7 @@ background-color: white;
   text-align: justify;
   margin-left: 30px;
   margin-right: 30px;
+  font-size: 1em;
 }
 .article-text1::first-letter {
   font-size: 150%;
@@ -253,6 +254,7 @@ font-size: 0.7em;
 #pasta-making-text1 {
     grid-row: 14/15;
     grid-column: 1 /10;
+    
 }
 #pasta-making-text2 {
   grid-column: 1 / 6;

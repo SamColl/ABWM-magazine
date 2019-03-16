@@ -1,0 +1,39 @@
+<figure id="pasta-img-9">
+   <img src="../images/article-images/pasta9.jpg">
+   <figcaption>Using the pasta machine</figcaption>
+</figure>
+<figure id="pasta-img-6">
+   <img src="../images/article-images/pasta6.jpg">
+   <figcaption>Cutting the rolled pasta</figcaption>
+</figure>
+
+<figure id="pasta-img-10">
+  <img src="../images/article-images/pasta10.jpg">
+<figcaption>Easy Peasy</figcaption>
+</figure>
+<figure id="pasta-img-5">
+   <img src="../images/article-images/pasta5.jpg">
+   <figcaption>The good</figcaption>
+</figure>
+<figure id="pasta-img-4">
+   <img src="../images/article-images/pasta4.jpg">
+   <figcaption>The bad</figcaption>
+</figure>
+<figure id="pasta-img-11">
+   <img src="../images/article-images/pasta11.jpg">
+   <figcaption>The aesthetically challenged</figcaption>
+</figure>
+</div>
+<div class="pasta-pic-gallery-bottom">
+ <figure id="pasta-img-7">
+    <img src="../images/article-images/pasta7.jpg">
+    <figcaption>Winner of the Asian Tigers Raffle – Bethan Cole</figcaption>
+ </figure>
+ <figure id="pasta-img-8">
+    <img src="../images/article-images/pasta8.jpg">
+    <figcaption>Sous Chef Mark</figcaption>
+ </figure>
+ <figure id="pasta-img-2">
+  <img src="../images/article-images/pasta2.jpg">
+  <figcaption>Executive Chef Massimo</figcaption>
+ </figure>

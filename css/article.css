@@ -254,7 +254,7 @@ font-size: 0.7em;
 #pasta-making-text1 {
     grid-row: 14/15;
     grid-column: 1 /10;
-    
+
 }
 #pasta-making-text2 {
   grid-column: 1 / 6;
@@ -313,4 +313,36 @@ figcaption {
 #pasta-img-3 {
   grid-row: 1 / 8;
   grid-column: 1 / 5;
+}
+@media only screen and (min-width: 1236px) {
+  .small-screen-pasta-images {
+    display: none;
+  }
+  .small-screen-pasta-images > img{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1235px) {
+  .pasta-pic-gallery-side,
+  .pasta-pic-gallery-bottom {
+    display: none;
+  }
+  .sidebar {
+    display:none;
+  }
+  .content-article-container {
+    display: block;
+  }
+}
+
+.small-screen-pasta-images {
+  display: flex;
+  object-fit: contain;
+  width: 85%;
+  flex-wrap: wrap;
+}
+.small-screen-pasta-images > img {
+  max-width: 150px;
+  padding-bottom:10px;
+  max-height: 200px;
 }

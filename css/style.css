@@ -24,6 +24,7 @@ body
   font-family: Helvetica ,sans-serif;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f2f2f2;
+  width: 100%;
 }
 h1 {
   font-size: 1.75em;
@@ -105,6 +106,11 @@ header img {
   nav.breadCrumb-nav {
     padding-top: 20px;
     margin-left: -10px;
+  }
+  @media only screen and (max-width: 710px) {
+    nav.breadCrumb-nav {
+      display: none;
+    }
   }
   .breadCrumbs li {
     position: relative;
@@ -637,7 +643,7 @@ footer {
       "main main sidebar"
       "footer footer footer";
 
-  max-width: 1154px;
+  width: 100%;
   }
 
 #header {
@@ -668,6 +674,7 @@ footer {
   text-align: center;
   max-height: 200px;
   width: auto;
+  padding-top: 20px;
 
 }
 .article-text-container,
@@ -691,7 +698,7 @@ footer {
   #tablet-chair-chat {
     display: none;
   }
-  
+
 
 }
 @media only screen and (min-width: 700px) {

@@ -3,7 +3,6 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
 grid-template-rows: 150px repeat(47, 50px);
 grid-column-gap: 30px;
-margin: 20px;
 background-color: white;
 }
 #quiz-content-article-container {

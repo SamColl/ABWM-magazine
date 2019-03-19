@@ -160,6 +160,11 @@ background-color: white;
 }
 
   }
+@media only screen and (max-width: 700px) {
+  .mobile-quiz-image-container > figure > img {
+    max-width: 250px;
+  }
+
 }
 .pic > figcaption {
   font-size: 0.95em;
@@ -320,7 +325,7 @@ font-size: 0.7em;
     font-size: 1.5em;
   }
   .subtitle {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
 }

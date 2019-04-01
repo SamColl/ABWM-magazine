@@ -1,7 +1,7 @@
 .content-article-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-grid-auto-rows: 50px;
+
 grid-column-gap: 30px;
 background-color: white;
 }
@@ -32,18 +32,17 @@ background-color: white;
   width: 100%;
   z-index: -30;
   grid-column: 1 / 9;
-  grid-row: 2 / 6;
+
 }
 .article-headline {
   grid-column: 1 / 10;
-  grid-row: 1 / 3;
+
 }
 .title {
   font-size: 3em;
   color: #303133;
   margin-bottom: 20px;
-
-    grid-column: 3 / 6;
+  grid-column: 3 / 6;
 }
 .subtitle {
   grid-column: 1 / 10;
@@ -433,7 +432,6 @@ figcaption {
 .vicki-leaving-article
  {
   display: block;
-  grid-row-start: 14;
   grid-column: 1/ 10;
 }
 
@@ -452,22 +450,45 @@ figcaption {
   overflow: hidden;
   padding: 0px;
 }
+#wood-walk-hero {
+ margin-top: 20px;
+ margin-bottom: 40px;
+}
 #wood-walk-hero img {
 
   object-position: bottom;
+
 }
 .walk-woods-article{
   display: block;
-  grid-row-start: 13;
+
   grid-column: 1/ 10;
 }
 #walkwoodstower-img.article-img-container img {
   object-fit: none;
   object-position: 90% 90%;
 }
+
 .article-text-header {
   padding: 20px 20px 10px 20px;
 }
 #woods-walk-img-start {
+
+  margin-left: 20px;
+}
+#woods-walk-img-tree {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#woods-walk-img-towers {
   float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.woods-gallery-pics {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-bottom: 20px;
 }

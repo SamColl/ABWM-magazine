@@ -670,3 +670,18 @@ cite {
 .tanma-contact {
   padding: 10px;
 }
+/* learning */
+.learning-quote {
+  width: 900px;
+  height: 450px;
+  text-align: justify;
+  font-style: italic;
+  padding: 30px;
+  padding-left: 50%;
+  background-image: url("../images/article-images/child-learning.jpg");
+  background-size: cover;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}

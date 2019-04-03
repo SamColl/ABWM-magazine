@@ -453,7 +453,8 @@ figcaption {
 /* walk in the woods */
 
 #wood-walk-hero,
-#vicki-leaving-hero {
+#vicki-leaving-hero,
+ {
   width: 800px;
   height: 500px;
   overflow: hidden;
@@ -693,4 +694,38 @@ cite {
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: 30px;
+}
+/* repatriation */
+
+.repat-list > li {
+  list-style-type: decimal;
+  font-size: 1em;
+}
+.tricia-carter-img {
+  float: right;
+  padding: 0px 30px 30px 30px;
+}
+.tricia-carter-img > figcaption {
+  caption-side: bottom;
+  float: none;
+}
+/* chat from the chair */
+
+.chair-chat-hero {
+  float: right;
+  padding: 20px;
+}
+.chair-chat-hero > img {
+  border-radius: 10px;
+}
+/* driving-test */
+
+.driving-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.driving-image-container img {
+  flex-basis: 33%;
+  padding: 20px;
 }

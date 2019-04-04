@@ -88,7 +88,7 @@ background-color: white;
 }
 .article-text {
   line-height: 1.5em;
-  text-align: justify;
+  text-align: left;
   font-size: 1em;
 }
 
@@ -727,5 +727,8 @@ cite {
 }
 .driving-image-container img {
   flex-basis: 33%;
+  flex-basis:
   padding: 20px;
+  width: 180px;
+  align-self: center;
 }

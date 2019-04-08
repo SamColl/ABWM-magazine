@@ -1,8 +1,10 @@
 #slider-text{
-  text-align:center;
+  text-align:left;
   padding: 20px;
   font-weight: 400px;
   font-style: italic;
+  font-size: 0.8em;
+
 }
 /* Slider */
 
@@ -100,9 +102,10 @@
 .slick-slide img
 {
     display: block;
-    max-width: 150px;
-    height: auto;
+
 }
+
+
 .slick-slide.slick-loading img
 {
     display: none;

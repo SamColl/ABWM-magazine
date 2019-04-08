@@ -125,8 +125,151 @@
 .school-img-gallery-container {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 
 }
 .school-img-gallery-container > img {
   margin: 10px;
+}
+/* 5 minutes peace */
+
+.peace-container {
+  display: block;
+  background-color: white;
+
+}
+#peace-hero {
+  margin: 0 auto;
+  display: block;
+}
+#peace-meme {
+  float:left;
+  margin: 30px 30px 50px 30px;
+}
+#peace-heading {
+  text-align: center;
+  margin: 20px;
+  font-size: 2em;
+}
+.memes {
+    background-color: antiquewhite;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.passwords-article {
+  padding: 30px;
+}
+
+/*  test */
+
+.snote p{
+  font-size:90%;
+  font-weight:normal;
+}
+
+.snote ul,li{
+  list-style:none;
+}
+
+.snote ul{
+  overflow:hidden;
+  padding:2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.snote ul li {
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:17em;
+  width:15em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+/
+.snote ul li:nth-child(n) {
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+.snote ul li:nth-child(2n) {
+  position:relative;
+  top:-5px;
+  background:#ccf;
+  margin:10px;
+}
+.snote ul li:nth-child(3n) {
+  position:relative;
+  top:-10px;
+  background:#fcf;
+}
+/*
+.snote ul li:hover,ul li:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+*/
+.snote ul li{
+
+
+}
+
+.snote ul li p{
+  font-family:'Shadows Into Light Two',arial,sans-serif;
+  font-size:120%;
+  color:#000;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+p.snote1 {
+  padding-top: 20%;
+}
+#image-4 {
+  display: block;
+  margin: 0 auto;
+}
+
+.peace-section-2 {
+  display: flex;
+  flex
+}
+.peace-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.peace-img-container img {
+  width: 450px;
+  margin-bottom: 20px;
+}
+.peace-recipe > h2 {
+  text-align: center;
+}
+.recipe-header {
+  text-align: center;
+  font-size: 1em;
+}
+.recipe {
+  margin: 20px;
+}
+#image-4 {
+  margin-bottom: 50px;
+}
+.peace-recipe {
+  border-left: 1px dotted black;
+  margin-left: 20px;
 }

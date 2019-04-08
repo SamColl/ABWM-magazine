@@ -732,3 +732,33 @@ cite {
   width: 180px;
   align-self: center;
 }
+#driving-subtitle {
+  font-size: 2.3em;
+  text-align: center;
+}
+/* advertorial */
+.advertorial-logo {
+  float: left;
+  margin:20px;
+}
+#advertorial-headline {
+  margin-bottom: 50px;
+}
+
+#advertorial-img-2 {
+  float: left;
+  margin: 0px 20px;
+}
+#advertorial-para1 {
+  clear: left;
+}
+.as-article-link-logo {
+  float: left;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+.as-article-link-text {
+  padding: 10px;
+
+}

@@ -141,7 +141,9 @@
 #peace-hero {
   margin: 0 auto;
   display: block;
+  width:100%;
 }
+
 #peace-meme {
   float:left;
   margin: 30px 30px 50px 30px;

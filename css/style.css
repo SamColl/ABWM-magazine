@@ -70,7 +70,9 @@ h5 {
    .read-more {
      color: red;
    }
-
+#author {
+  font-weight: bold;
+}
 
 #homepage-header {
   background-image: url("../images/landmarks-masthead-april.gif");

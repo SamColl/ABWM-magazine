@@ -482,7 +482,7 @@ figcaption {
 @media only screen and (min-width: 1154px) {
 
 #walkwoodstower-img.article-img-container img {
-  object-fit: none;
+
   object-position: 90% 90%;
 }
 }
@@ -768,4 +768,8 @@ cite {
 .as-article-link-text {
   padding: 10px;
 
+}
+#church {
+  display: block;
+  margin: 0 auto;
 }

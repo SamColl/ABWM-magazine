@@ -7,7 +7,7 @@
     height: 80px;
   }
 }
-@media only screen and (min-width: 350px) and (max-width: 699px) {
+@media only screen and (min-width: 320px) and (max-width: 699px) {
   .featured-full-article-container,
   .article-container,
   .chair-chat {
@@ -37,7 +37,7 @@ figure.tanma-stall img {
   width: 100%;
 }
 }
-@media only screen and (min-width: 350px) and (max-width: 1250px) {
+@media only screen and (min-width: 320px) and (max-width: 1250px) {
   #pasta-making-article-container {
     display: block;
     width:100%;
@@ -49,7 +49,7 @@ figure.tanma-stall img {
 
 
 /* 5 minutes peace */
-@media only screen and (min-width: 350px) and (max-width: 1200px) {
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
 .peace-img-container img {
   width: 95%;
   display: block;
@@ -133,6 +133,10 @@ figure.tanma-stall img {
   margin-top: 20px;
   margin-bottom:20px;
 }
+
+.school-img-gallery-container figure {
+  width: 45%;
+}
 }
 @media only screen and (min-width: 421px) and (max-width: 700px) {
   #header,
@@ -155,6 +159,13 @@ figure.tanma-stall img {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+.abwm-house-images {
+  display: block;
+  width: 100%;
+}
+#house-image img {
+  width:100%;
 }
 #tablet-main-article {
   display: none;

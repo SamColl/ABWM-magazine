@@ -442,25 +442,28 @@ figcaption {
 #vicki-leaving-text {
   padding-top: 30px;
 }
-
+ .abwm-house-images,
 .vicki-leaving-pics {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
   align-items: flex-start;
 }
-.vicki-leaving-pics img {
+.vicki-leaving-pics img,
+.abwm-house-images figure {
   padding: 10px;
+}
+#house-caption {
+  text-align: center;
+  float: none;
 }
 /* walk in the woods */
 
 
 #vicki-leaving-hero
  {
-  width: 800px;
-  height: 500px;
-  overflow: hidden;
-  padding: 0px;
+  width: 100%;
+  height:auto;
 }
 #wood-walk-hero {
  width: 700px;

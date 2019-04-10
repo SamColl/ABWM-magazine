@@ -37,6 +37,17 @@ figure.tanma-stall img {
   width: 100%;
 }
 }
+@media only screen and (min-width: 350px) and (max-width: 1250px) {
+  #pasta-making-article-container {
+    display: block;
+    width:100%;
+  }
+  #pasta-landscape {
+    max-width: 300px;
+  }
+}
+
+
 /* 5 minutes peace */
 @media only screen and (min-width: 350px) and (max-width: 1200px) {
 .peace-img-container img {
@@ -100,6 +111,27 @@ figure.tanma-stall img {
 
 .affiliate-card {
   display: block;
+}
+#wood-walk-hero {
+  width: 100%;
+}
+.woods-gallery-pics {
+  display: block;
+}
+.woods-gallery-pics img {
+  width: 100%;
+  height: auto;
+
+}
+#woods-walk-img-start {
+  margin: 0;
+}
+#woods-walk-img-tree {
+  margin-bottom: 20px;
+}
+#woods-walk-img-towers {
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 }
 @media only screen and (min-width: 421px) and (max-width: 700px) {

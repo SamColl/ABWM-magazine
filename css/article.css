@@ -454,8 +454,8 @@ figcaption {
 }
 /* walk in the woods */
 
-#wood-walk-hero,
-#vicki-leaving-hero,
+
+#vicki-leaving-hero
  {
   width: 800px;
   height: 500px;
@@ -463,8 +463,10 @@ figcaption {
   padding: 0px;
 }
 #wood-walk-hero {
+ width: 700px;
+ height: auto;
  margin-top: 20px;
- margin-bottom: 40px;
+ margin-bottom: 20px;
 }
 #wood-walk-hero img {
 

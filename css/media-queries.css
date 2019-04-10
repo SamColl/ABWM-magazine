@@ -173,6 +173,7 @@ figure.tanma-stall img {
 #tablet-chair-chat {
   display: none;
 }
+
 .top-advert {
   display: none;
 }
@@ -180,7 +181,10 @@ figure.tanma-stall img {
  display: none;
 }
 .mobile-advert {
-  width: 100%;
+  width: 320px;
+}
+#plat-mobile-advert {
+  width:100%;
 }
 .mobile-advert img {
   width: 100%;

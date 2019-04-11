@@ -415,7 +415,14 @@ padding-left:10px;
 footer {
   display: block;
 }
-
+.grid-article {
+  display: block;
+}
+.grid-hero {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 .slick-slide img {
 
 }

@@ -103,7 +103,7 @@ background-color: white;
 }
 @media only screen and (max-width: 400px) {
   .article-text {
-    font-size: 0.75em;
+    font-size: 0.85em;
   }
 
 }

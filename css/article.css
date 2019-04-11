@@ -296,6 +296,8 @@ margin-right: 30px;
 }
 #home-of-peace-container {
   background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 #subtitle-home-of-peace {
   text-align: center;
@@ -545,6 +547,12 @@ text-align: left;
 font-size: 1em;
 padding: 20px 20px 0px 20px;
 font-weight: bolder;
+
+}
+#learning {
+  background-color: #c6e8f1;
+  padding: 20px;
+  border-radius: 7px;
 }
 cite {
   font-style: italic;

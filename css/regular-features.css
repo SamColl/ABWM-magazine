@@ -139,7 +139,13 @@
 #peace-hero {
   margin: 0 auto;
   display: block;
-  width:100%;
+  width:70%;
+}
+.drawing {
+  width: 80%
+}
+.drawing img {
+  width: 100%;
 }
 
 #peace-meme {
@@ -241,11 +247,12 @@ p.snote1 {
 #image-4 {
   display: block;
   margin: 0 auto;
+  max-width: 500px;
 }
 
 .peace-section-2 {
   display: flex;
-  flex
+  padding: 20px;
 }
 .peace-img-container {
   display: flex;

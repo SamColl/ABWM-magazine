@@ -417,6 +417,7 @@ figcaption {
   justify-content: space-around;
   margin-top: 20px;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .vicki-leaving-pics img,
 .abwm-house-images figure {

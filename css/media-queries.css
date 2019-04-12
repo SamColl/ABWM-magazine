@@ -57,6 +57,13 @@ figure.tanma-stall img {
   text-align: center;
   width:90%;
 }
+.header-contact-container{
+  flex-direction: column;
+  padding: 10px;
+}
+.main {
+  padding: 0px;
+}
 
 }
 @media only screen and (min-width: 320px) and (max-width: 1250px) {
@@ -307,6 +314,13 @@ padding-left:10px;
 
 .adverts {
   display: none;
+}
+.header-contact-container{
+  flex-direction: column;
+
+}
+.header-contact {
+  padding: 10px;
 }
 
 }

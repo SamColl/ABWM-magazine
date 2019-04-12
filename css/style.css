@@ -38,6 +38,10 @@ body
 }
 .header-contact{
   color: #2f2f2f;
+  font-size: 1em;
+}
+.header-contact a {
+  color: #2f2f2f;
 }
 h1 {
   font-size: 1.75em;
@@ -341,6 +345,7 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
+  border: solid 20px #f2f2f2;
 
 }
 
@@ -437,7 +442,7 @@ footer {
 }
 .footer-nav {
  padding:0px;
- width: 125px;
+ width: 135px;
 }
 .nav-link {
   border-radius: 7px;

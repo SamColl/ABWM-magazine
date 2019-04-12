@@ -189,6 +189,7 @@ figure.tanma-stall img {
   width: 150px;
 }
 }
+
 @media only screen and (max-width: 769px) {
 .wrapper {
   display: block;
@@ -209,6 +210,12 @@ figure.tanma-stall img {
 #tablet-chair-chat {
   display: none;
 }
+.bronze-ad-container {
+  display: none;
+}
+#bronze-ad-container-chair-chat {
+  display: none;
+}
 
 .top-advert {
   display: none;
@@ -218,6 +225,8 @@ figure.tanma-stall img {
 }
 .mobile-advert {
   width: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #plat-mobile-advert {
   width:100%;

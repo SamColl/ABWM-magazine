@@ -465,4 +465,9 @@ footer {
   body {
     max-width: 1400px;
   }
+  #header,
+  #homepage-header {
+    background-size: contain;
+    height: 280px;
+  }
 }

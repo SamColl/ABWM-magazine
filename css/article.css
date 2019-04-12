@@ -263,8 +263,8 @@ margin-right: 30px;
 }
 #home-of-peace-container {
   background-color: white;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 #subtitle-home-of-peace {
   text-align: center;
@@ -480,6 +480,11 @@ figcaption {
   justify-content: space-around;
   width: 90%;
   margin-bottom: 20px;
+  align-items: flex-start;
+}
+.woods-gallery-pics img {
+  width: 47%;
+  height: auto;
 }
 /*tanma article */
 #tanma-logo {
@@ -691,6 +696,7 @@ cite {
   float: right;
   padding: 0px 30px 30px 30px;
 }
+
 .tricia-carter-img > figcaption {
   caption-side: bottom;
   float: none;

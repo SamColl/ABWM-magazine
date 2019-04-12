@@ -340,20 +340,11 @@ padding-left:10px;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 899px) {
-  .wrapper {
-    grid-template-columns: 1.3fr 0.7fr;
-    grid-template-areas:
-  "top-ad top-ad"
-  " header header"
-  "breadcrumb"
-  "main sidebar"
-  "footer footer";
-  width: 100%;
-}
+
   #plat-mobile-advert {
     display: none;
   }
- .mobile-advert,
+  .mobile-advert,
   .mobile-sponsor-banner {
     display: none;
   }
@@ -368,19 +359,6 @@ padding-left:10px;
 
 @media only screen and (min-width: 901px) and (max-width: 1154px){
 
-  .wrapper {
-
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "top-ad top-ad top-ad"
-      "header header header"
-      "breadcrumb breadcrumb breadcrumb"
-      "main main sidebar"
-      "footer footer footer";
-
-  width: 100%;
-  }
   #tablet-chair-chat {
     display: none;
   }

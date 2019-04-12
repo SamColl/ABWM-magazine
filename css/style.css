@@ -542,6 +542,7 @@ height: 150px;
 
 }
 #bronze-ad-container-chair-chat {
+  display: flex;
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;

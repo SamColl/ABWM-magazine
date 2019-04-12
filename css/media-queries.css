@@ -90,6 +90,7 @@ figure.tanma-stall img {
 .peace-section-2 {
   display: block;
 }
+
 #peace-meme {
   float: none;
   display: block;
@@ -188,6 +189,12 @@ figure.tanma-stall img {
   .featured-full-article-image-container {
   width: 150px;
 }
+#peace-meme {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+
 }
 
 @media only screen and (max-width: 769px) {
@@ -230,6 +237,7 @@ figure.tanma-stall img {
 }
 #plat-mobile-advert {
   width:100%;
+  margin: 0;
 }
 .mobile-advert img {
   width: 100%;
@@ -386,7 +394,7 @@ padding-left:10px;
 .article-container {
   flex-basis: 45%;
   border-left: 10px solid #f2f2f2;
-  
+
 }
 
 .featured-full-article-image-container,

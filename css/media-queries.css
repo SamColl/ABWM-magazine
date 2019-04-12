@@ -163,6 +163,12 @@ figure.tanma-stall img {
   width:45%;
 }
 }
+@media only screen and (min-width: 450px) and (max-width: 769px) {
+  .article-img-container,
+  .featured-full-article-image-container {
+    width: 200px;
+}
+}
 @media only screen and (min-width: 421px) and (max-width: 700px) {
   #header,
   #homepage-header {
@@ -177,7 +183,12 @@ figure.tanma-stall img {
   max-width: 300px;
 }
 }
-
+@media only screen and (max-width: 450px) {
+  .article-img-container,
+  .featured-full-article-image-container {
+  width: 150px;
+}
+}
 @media only screen and (max-width: 769px) {
 .wrapper {
   display: block;
@@ -240,7 +251,7 @@ nav.breadCrumb-nav {
 }
 .article-img-container,
 .featured-full-article-image-container {
-  width: 150px;
+
   object-fit: cover;
   overflow: hidden;
   height: auto;
@@ -455,6 +466,14 @@ footer {
 .customer-logos {
   width: auto;
   padding-top:20px;
+}
+.chair-chat h3
+ {
+  margin-bottom: 5px;
+  margin-top:5px;
+  bottom: 90px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  font-size: 18px;
 }
 }
 

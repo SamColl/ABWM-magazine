@@ -7,6 +7,8 @@ $(document).ready(function(){
         arrows: false,
         dots: false,
         pauseOnHover: false,
+        focusOnSelect: true,
+        pauseOnSelect: false,
         responsive: [{
             breakpoint: 768,
             settings: {

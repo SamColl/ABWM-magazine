@@ -783,3 +783,6 @@ cite {
   display: block;
   margin: 0 auto;
 }
+.story p {
+  text-align: left;
+}

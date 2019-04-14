@@ -204,6 +204,9 @@ figure.tanma-stall img {
   padding: 0;
   width: 100%;
 }
+main  {
+  padding-top: 0;
+}
 .abwm-house-images {
   display: block;
   width: 100%;
@@ -248,6 +251,8 @@ nav.breadCrumb-nav {
 .article-container-main {
   display: block;
   margin: 0 auto;
+  padding-top: 0;
+  border-top: none;
 }
 .featured-full-article-container,
 .article-container,
@@ -344,11 +349,11 @@ padding-left:10px;
   display: none;
 }
 .header-contact-container{
-  flex-direction: column;
+
 
 }
 .header-contact {
-  padding: 10px;
+  padding: 5px;
 }
 
 }
